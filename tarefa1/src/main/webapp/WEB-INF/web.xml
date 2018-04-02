@@ -19,6 +19,16 @@
         <url-pattern>/mostraheader</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>Somatorio</servlet-name>
+        <servlet-class>br.uff.dac.s20181.tarefa1.Somatorio</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Somatorio</servlet-name>
+        <url-pattern>/somatorio</url-pattern>
+    </servlet-mapping>
+
     <session-config>
         <session-timeout>
             30
